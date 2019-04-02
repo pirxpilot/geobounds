@@ -1,4 +1,4 @@
-var bounds = require('..');
+const bounds = require('..');
 
 /* global describe, it */
 
@@ -36,7 +36,7 @@ describe('bounds', function() {
   });
 
   it('bounds extend', function () {
-    var bnds;
+    let bnds;
 
     bnds = bounds();
     bnds([0, 1]).should.not.be.ok();
