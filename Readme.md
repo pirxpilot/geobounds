@@ -1,6 +1,6 @@
 [![NPM version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Dependency Status][gemnasium-image]][gemnasium-url]
+[![Build Status][build-image]][build-url]
+[![Dependency Status][deps-image]][deps-url]
 
 # geobounds
 
@@ -43,11 +43,11 @@ bounds.get(); // [[[0, 0], [1, 1]]]
 
 MIT © [Damian Krzeminski](https://pirxpilot.me)
 
-[npm-image]: https://img.shields.io/npm/v/geobounds.svg
+[npm-image]: https://img.shields.io/npm/v/geobounds
 [npm-url]: https://npmjs.org/package/geobounds
 
-[travis-url]: https://travis-ci.org/melitele/geobounds
-[travis-image]: https://img.shields.io/travis/melitele/geobounds.svg
+[build-url]: https://github.com/melitele/geobounds/actions/workflows/check.yaml
+[build-image]: https://img.shields.io/github/actions/workflow/status/melitele/geobounds/check.yaml?branch=main
 
-[gemnasium-image]: https://img.shields.io/gemnasium/code42day/geobounds.svg
-[gemnasium-url]: https://gemnasium.com/code42day/geobounds
+[deps-image]: https://img.shields.io/librariesio/release/npm/geobounds
+[deps-url]: https://libraries.io/npm/geobounds

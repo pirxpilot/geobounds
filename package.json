@@ -7,7 +7,10 @@
     "email": "pirxpilot@furkot.com",
     "url": "https://pirxpilot.me"
   },
-  "repository": "melitele/geobounds",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melitele/geobounds.git"
+  },
   "license": "MIT",
   "keywords": [
     "geobounds",
