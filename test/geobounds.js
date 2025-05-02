@@ -1,6 +1,5 @@
+const { describe, it } = require('node:test');
 const bounds = require('..');
-
-/* global describe, it */
 
 describe('bounds', function() {
   it('should fail on empty', function() {
@@ -36,9 +35,7 @@ describe('bounds', function() {
   });
 
   it('bounds extend', function () {
-    let bnds;
-
-    bnds = bounds();
+    const bnds = bounds();
     bnds([0, 1]).should.not.be.ok();
     bnds([1, 0]).should.not.be.ok();
     bnds.extend([0, 1]);
