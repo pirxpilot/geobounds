@@ -2,6 +2,8 @@
   "name": "geobounds",
   "version": "1.2.0",
   "description": "Checks if point is in bounds.",
+  "type": "module",
+  "exports": "./lib/geobounds.js",
   "author": {
     "name": "Damian Krzeminski",
     "email": "pirxpilot@furkot.com",
@@ -28,7 +30,6 @@
     "test": "make check"
   },
   "files": [
-    "index.js",
     "lib"
   ]
 }

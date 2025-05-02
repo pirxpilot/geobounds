@@ -1,5 +1,5 @@
-const { describe, it } = require('node:test');
-const bounds = require('..');
+import { describe, it } from 'node:test';
+import bounds from '../lib/geobounds.js';
 
 describe('bounds', () => {
   it('should fail on empty', t => {
